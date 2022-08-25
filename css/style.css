@@ -92,3 +92,18 @@ ul {
   align-items: center;
   text-align: center;
 }
+#contato {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+}
+.contato {
+  position: sticky;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: flex-end;
+}
