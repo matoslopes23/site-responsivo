@@ -34,7 +34,7 @@ a:hover {
 body.sobre #area-menu a#sobre,
 body.servico #area-menu a#servico,
 body.fotos #area-menu a#fotos,
-body.contato #area-menu a#contato {
+body.contato-menu #area-menu a#contato-menu {
   color: #161615;
   background: #fff;
   cursor: text;
@@ -131,32 +131,37 @@ img {
   align-items: center;
   text-align: center;
 }
+#cab-cont {
+  align-items: center;
+  text-align: center;
+}
+
 #are-contato {
-  /* display: flex; */
-  display: inline;
-  width: 750px;
+  display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
 #contato {
-  position: relative;
   display: flex;
+  /* flex-direction: row; */
   padding: 5px;
   width: 100%;
+  /* background-color: #da7b47; */
   line-height: 50px;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
-.contato {
-  position: relative;
+#contato .contatoItem {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgb(194, 203, 214);
-  padding: 5px;
-  width: 50%;
+  width: 200px;
   height: 150px;
-  line-height: 50px;
-  align-items: flex-end;
-}
-#cab-cont {
   align-items: center;
-  text-align: center;
+  justify-content: center;
+}
+
+#contato .contatoItem img {
+  align-self: center;
 }
