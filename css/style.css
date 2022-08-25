@@ -32,7 +32,7 @@ a:hover {
   background-position: right bottom;
 }
 body.sobre #area-menu a#sobre,
-body.servicos #area-menu a#servicos,
+body.servico #area-menu a#servico,
 body.fotos #area-menu a#fotos,
 body.contato #area-menu a#contato {
   color: #161615;
@@ -41,6 +41,9 @@ body.contato #area-menu a#contato {
 }
 ul {
   list-style: none;
+}
+img {
+  width: 90px;
 }
 .image {
   width: 600px;
@@ -60,6 +63,7 @@ ul {
   padding: 15px;
   background: #ccc;
 }
+
 #topo {
   position: relative;
   padding: 5px;
@@ -78,11 +82,45 @@ ul {
 }
 #servicos {
   position: relative;
+  display: flex;
   padding: 5px;
   width: 100%;
   line-height: 50px;
   align-items: center;
   text-align: center;
+}
+#serv {
+  align-items: center;
+  text-align: center;
+}
+#fotografia {
+  width: 400px;
+  margin: 5px;
+  height: 350px;
+  background: #dfd1d1;
+  border-radius: 7px;
+}
+#video {
+  width: 400px;
+  margin: 5px;
+  height: 350px;
+  background: #dfd1d1;
+  border-radius: 7px;
+}
+#cap-image {
+  width: 400px;
+  margin: 5px;
+  height: 350px;
+  background: #dfd1d1;
+
+  border-radius: 7px;
+}
+#trat-image {
+  width: 400px;
+  margin: 5px;
+  height: 350px;
+  background: #dfd1d1;
+  border-radius: 7px;
 }
 #fotos {
   position: relative;
