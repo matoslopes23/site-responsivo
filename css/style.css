@@ -47,6 +47,7 @@ img {
 }
 .image {
   width: 600px;
+  border-radius: 7px;
 }
 #cabecalho a:link,
 #cabecalho a:visited {
@@ -82,10 +83,10 @@ img {
 }
 #servicos {
   position: relative;
-  display: flex;
+  display: inline-flex;
   padding: 5px;
   width: 100%;
-  line-height: 50px;
+  line-height: 40px;
   align-items: center;
   text-align: center;
 }
@@ -94,21 +95,21 @@ img {
   text-align: center;
 }
 #fotografia {
-  width: 400px;
+  width: 460px;
   margin: 5px;
   height: 350px;
   background: #dfd1d1;
   border-radius: 7px;
 }
 #video {
-  width: 400px;
+  width: 460px;
   margin: 5px;
   height: 350px;
   background: #dfd1d1;
   border-radius: 7px;
 }
 #cap-image {
-  width: 400px;
+  width: 460px;
   margin: 5px;
   height: 350px;
   background: #dfd1d1;
@@ -116,7 +117,7 @@ img {
   border-radius: 7px;
 }
 #trat-image {
-  width: 400px;
+  width: 460px;
   margin: 5px;
   height: 350px;
   background: #dfd1d1;
