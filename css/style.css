@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+#cabecalho {
+  background: #1a1a1a;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo,
+#area-menu {
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #da7b47;
+}
+a:hover {
+  background-position: right bottom;
+}
+body.sobre #area-menu a#sobre,
+body.servicos #area-menu a#servicos,
+body.fotos #area-menu a#fotos,
+body.contato #area-menu a#contato {
+  color: #161615;
+  background: #fff;
+  cursor: text;
+}
+ul {
+  list-style: none;
+}
+.image {
+  width: 600px;
+}
+#cabecalho a:link,
+#cabecalho a:visited {
+  color: #fff;
+  padding: 8px 12px;
+}
+#cabecalho a:hover {
+  color: #1a1a1a;
+  background: #fff;
+}
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
+}
+#topo {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+}
+#sobres {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+}
+#servicos {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+}
+#fotos {
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  line-height: 50px;
+  align-items: center;
+  text-align: center;
+}
